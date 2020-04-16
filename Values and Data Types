@@ -7,3 +7,35 @@ print(3.2)
 print("Hello, World!")
 
 Operators and Operands
+
+You can build complex expressions out of simpler ones using operators. Operators are special tokens that represent computations like addition, multiplication and division. The values the operator works on are called operands.
+
+The following are all legal Python expressions whose meaning is more or less clear:
+
+20 + 32
+5 ** 2
+(5 + 9) * (15 - 7)
+
+The tokens +, -, and *, and the use of parentheses for grouping, mean in Python what they mean in mathematics. The asterisk (*) is the token for multiplication, and ** is the token for exponentiation. Addition, subtraction, multiplication, and exponentiation all do what you expect.
+
+Remember that if we want to see the results of the computation, the program needs to specify that with the word print. The first three computations occur, but their results are not printed out.
+
+print(7 + 5)
+
+In Python 3, which we will be using, the division operator / produces a floating point result (even if the result is an integer; 4/2 is 2.0). If you want truncated division, which ignores the remainder, you can use the // operator (for example, 5//2 is 2)
+
+The modulus operator, sometimes also called the remainder operator or integer remainder operator works on integers (and integer expressions) and yields the remainder when the first operand is divided by the second. In Python, the modulus operator is a percent sign (%). The syntax is the same as for other operators.
+
+Example:-
+
+print(7 // 3)    # This is the integer division operator
+print(7 % 3)     # This is the remainder or modulus operator
+
+
+In the above example, 7 divided by 3 is 2 when we use integer division and there is a remainder of 1.
+
+The modulus operator turns out to be surprisingly useful. For example, you can check whether one number is divisible by another—if x % y is zero, then x is divisible by y. Also, you can extract the right-most digit or digits from a number. For example, x % 10 yields the right-most digit of x (in base 10). Similarly x % 100 yields the last two digits.
+
+
+
+
