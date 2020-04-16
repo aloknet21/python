@@ -32,9 +32,33 @@ print(7 // 3)    # This is the integer division operator
 print(7 % 3)     # This is the remainder or modulus operator
 
 
+
+
+
 In the above example, 7 divided by 3 is 2 when we use integer division and there is a remainder of 1.
 
 The modulus operator turns out to be surprisingly useful. For example, you can check whether one number is divisible by another—if x % y is zero, then x is divisible by y. Also, you can extract the right-most digit or digits from a number. For example, x % 10 yields the right-most digit of x (in base 10). Similarly x % 100 yields the last two digits.
+
+
+
+Our First Turtle Program
+===========================
+
+import turtle
+
+wn = turtle.Screen()
+color = input("tell me a color name:")
+wn.bgcolor(color)        # set the window background color
+
+tess = turtle.Turtle()
+tesscolor = input("tell me the color name:")
+tess.color(tesscolor)              # make tess blue
+pensize = int(input("tell me the pensize:"))
+tess.pensize(pensize)                # set the width of her pen
+
+tess.forward(50)
+tess.left(120)
+tess.forward(50)
 
 
 
