@@ -1,0 +1,9 @@
+Values and Data Types
+A value is one of the fundamental things — like a word or a number — that a program manipulates. Some values are 5 (the result when we add 2 + 3), and "Hello, World!". These objects are classified into different classes, or data types: 4 is an integer, and “Hello, World!” is a string, so-called because it contains a string or sequence of letters. You (and the interpreter) can identify strings because they are enclosed in quotation marks.
+
+Example:-
+
+print(3.2)
+print("Hello, World!")
+
+Operators and Operands
